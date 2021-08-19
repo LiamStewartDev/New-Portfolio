@@ -8,8 +8,9 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --first-color: #76323F;
+  --second-color: #565656;
+  --third-color: #D7CEC7;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -57,6 +58,7 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: var(--third-color);
 }
 h1,h2,p{
   margin: 0;
@@ -116,7 +118,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: var(--third-color);
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -127,6 +129,7 @@ img{
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  background-color: var(--third-color);
 }
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -331,6 +334,7 @@ img{
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  background-color: rgb(230, 230, 230);
 }
 .contact__button{
   display: block;
@@ -343,8 +347,8 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: var(--third-color);
+  color: var(--second-color);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -358,7 +362,7 @@ img{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--second-color);
   margin: 0 var(--mb-2)
 }
 
