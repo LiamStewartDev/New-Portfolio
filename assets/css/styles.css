@@ -6,14 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #76323F;
   --second-color: #565656;
   --third-color: #D7CEC7;
 }
 
-/*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -28,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -326,8 +325,7 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
-  object-fit: contain;
-  width:345px;
+  object-fit: cover;
   height: 200px;
   position: relative;
   color: white;
@@ -474,7 +472,7 @@ img{
     width: 300px;
   }
   .work__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
